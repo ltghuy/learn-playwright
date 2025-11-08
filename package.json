@@ -1,0 +1,17 @@
+{
+    "name": "learn-playwright",
+    "packageManager": "yarn@4.0.2",
+    "devDependencies": {
+        "@playwright/test": "^1.56.1",
+        "@types/node": "^24.10.0",
+        "dotenv": "^17.2.3",
+        "prettier": "3.6.2"
+    },
+    "scripts": {
+        "test": "npx playwright test",
+        "test --again": "npx playwright test --last-failed",
+        "test --ui": "npx playwright test --ui",
+        "test --debug": "npx playwright test --debug",
+        "show-report": "yarn playwright show-report"
+    }
+}
